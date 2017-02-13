@@ -1,0 +1,67 @@
+#root h3 {
+  font-family: Helvetica, sans-serif;
+  margin: 5px; }
+#root div {
+  font-family: Helvetica, sans-serif; }
+#root span {
+  font-family: Helvetica, sans-serif; }
+#root .widget-air-travel {
+  max-width: 520px;
+  margin: 40px auto;
+  font-family: Helvetica, sans-serif; }
+  #root .widget-air-travel .airs-company {
+    border-radius: 3px;
+    background-color: #407177;
+    height: 100%; }
+    #root .widget-air-travel .airs-company .button-list {
+      margin: 10px 0; }
+      #root .widget-air-travel .airs-company .button-list .button {
+        margin: 5px;
+        padding: 7px;
+        color: #4d4d4d;
+        cursor: pointer;
+        background: #78E3FF;
+        border-radius: 5px;
+        box-shadow: 0px 1px 0px 0px #949494; }
+      #root .widget-air-travel .airs-company .button-list .selected {
+        background: red; }
+    #root .widget-air-travel .airs-company h3 {
+      color: #fff; }
+  #root .widget-air-travel .companies {
+    margin-top: 15px;
+    display: block; }
+    #root .widget-air-travel .companies .card-company {
+      width: 250px;
+      background: #D6D6D6;
+      margin: 5px;
+      color: #4d4d4d;
+      display: inline-block;
+      border-radius: 2px;
+      box-shadow: 1px 1px 2px 0px #949494; }
+      #root .widget-air-travel .companies .card-company .company-name {
+        border-radius: 3px;
+        background: #407177;
+        padding: 5px;
+        color: #fff;
+        box-shadow: 0px 1px 0px 0px #949494;
+        font-size: 18px; }
+      #root .widget-air-travel .companies .card-company .from-to {
+        padding: 5px;
+        text-align: left; }
+        #root .widget-air-travel .companies .card-company .from-to .line {
+          margin: 0;
+          display: inline; }
+        #root .widget-air-travel .companies .card-company .from-to p {
+          display: inline;
+          color: #F34235; }
+      #root .widget-air-travel .companies .card-company .time, #root .widget-air-travel .companies .card-company .departure, #root .widget-air-travel .companies .card-company .arrival {
+        padding: 5px;
+        font-size: 14px;
+        color: #007eff; }
+      #root .widget-air-travel .companies .card-company hr {
+        margin: 0; }
+    #root .widget-air-travel .companies h3 {
+      color: #4d4d4d;
+      text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
