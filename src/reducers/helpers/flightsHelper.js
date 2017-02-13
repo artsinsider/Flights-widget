@@ -22,7 +22,6 @@ export function listButton(state) {
  */
 export function selestCompany(state, payload){
     const foundDataCompany =  dataCompany(state,payload);
-    console.log('foundDataCompany',foundDataCompany);
     return { ...state, updateCompany: payload, foundDataCompany: foundDataCompany}
 }
 
